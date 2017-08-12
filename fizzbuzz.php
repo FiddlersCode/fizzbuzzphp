@@ -10,6 +10,9 @@ declare(strict_types=1);
       } elseif ($number % 3 == 0) {
         return 'Fizz';
       }
+      else {
+        return $number;
+      }
     }
   }
 
