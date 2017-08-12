@@ -9,20 +9,9 @@ class FizzBuzzTest extends Testcase
   {
     $this->fizzbuzz = new FizzBuzz();
   }
-  public function testDivisibleBy3()
+  public function testFizzBuzzSays()
   {
-    // number is divisible by 3
-    $this->assertTrue($this->fizzbuzz->isDivisibleBy3(6));
-  }
-
-  public function testDivisibleBy5()
-  {
-    $this->assertTrue($this->fizzbuzz->isDivisibleBy5(10));
-  }
-
-  public function testDivisibleBy10()
-  {
-    $this->assertTrue($this->fizzbuzz->isDivisibleBy10(20));
+    $this->assertEquals('FizzBuzz', $this->fizzbuzz->says(15));
   }
 }
 
