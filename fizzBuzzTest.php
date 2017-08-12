@@ -12,9 +12,18 @@ class FizzBuzzTest extends Testcase
   public function testFizzBuzzSays()
   {
     $this->assertEquals('FizzBuzz', $this->fizzbuzz->says(15));
+    $this->assertEquals('FizzBuzz', $this->fizzbuzz->says(45));
     $this->assertEquals('Buzz', $this->fizzbuzz->says(5));
+    $this->assertEquals('Buzz', $this->fizzbuzz->says(10));
     $this->assertEquals('Fizz', $this->fizzbuzz->says(3));
+    $this->assertEquals('Fizz', $this->fizzbuzz->says(6));
     $this->assertEquals(2, $this->fizzbuzz->says(2));
+    $this->assertNotEquals('FizzBuzz', $this->fizzbuzz->says(5));
+    $this->assertNotEquals('FizzBuzz', $this->fizzbuzz->says(3));
+    $this->assertNotEquals('FizzBuzz', $this->fizzbuzz->says(8));
+    $this->assertNotEquals('Buzz', $this->fizzbuzz->says(3));
+    $this->assertNotEquals('Fizz', $this->fizzbuzz->says(5));
+
   }
 }
 
