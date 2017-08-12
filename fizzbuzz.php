@@ -6,6 +6,11 @@ declare(strict_types=1);
       if ($number % 3 == 0)
       return true;
     }
+
+    public function isDivisibleBy5($number){
+      if ($number % 5 == 0)
+      return true;
+    }
   }
 
 
