@@ -13,6 +13,7 @@ class FizzBuzzTest extends Testcase
   {
     $this->assertEquals('FizzBuzz', $this->fizzbuzz->says(15));
     $this->assertEquals('Buzz', $this->fizzbuzz->says(5));
+    $this->assertEquals('Fizz', $this->fizzbuzz->says(3));
   }
 }
 
