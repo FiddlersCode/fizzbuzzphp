@@ -19,6 +19,11 @@ class FizzBuzzTest extends Testcase
   {
     $this->assertTrue($this->fizzbuzz->isDivisibleBy5(10));
   }
+
+  public function testDivisibleBy10()
+  {
+    $this->assertTrue($this->fizzbuzz->isDivisibleBy10(20));
+  }
 }
 
 ?>
