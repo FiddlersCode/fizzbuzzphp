@@ -1,4 +1,4 @@
-# PHP Fizzbuzz
+# PHP FizzBuzz
 by Paula Muldoon
 
 ### About
@@ -6,7 +6,6 @@ As I am starting a job as a PHP developer, I decided to learn PHPUnit with the c
 
 The rules are thus:
 ```
-Lets divide this into different steps so, we can easily write and test this.
 - Print numbers from 1 to 100
 - Print "Fizz" instead of number which is divisible by 3
 - Print "Buzz" instead of number which is divisible by 5
