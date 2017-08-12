@@ -2,14 +2,15 @@
 by Paula Muldoon
 
 ### About
-As I am starting a job as a PHP developer, I decided to learn PHPUnit with the classic kata, FizzBuzz.
+As I am starting a job as a PHP developer, I decided to learn PHPUnit with the classic kata, FizzBuzz.  Thanks to [Joe Sweeny](https://github.com/joesweeny/fizzbuzz-php) for blazing the FizzBuzz PHP trail!
 
-The rules are thus:
+
+The rules are thus (slightly modified from the usual rules as I wanted to focus on testing):
 ```
-- Print numbers from 1 to 100
-- Print "Fizz" instead of number which is divisible by 3
-- Print "Buzz" instead of number which is divisible by 5
-- Print "FizzBuzz" instead of number which is divisible by both 3 and 5
+- Return the number given
+- Return "Fizz" instead of number which is divisible by 3
+- Return "Buzz" instead of number which is divisible by 5
+- Return "FizzBuzz" instead of number which is divisible by both 3 and 5
 ```
 
 If you would like to contribute to this repo please feel free to make a pull request.
@@ -41,5 +42,3 @@ Happy FizzBuzz'ing
 * TDD
 
 ---
-## Thanks
-Thanks to [Joe Sweeny](https://github.com/joesweeny/fizzbuzz-php) for blazing the FizzBuzz PHP trail!
