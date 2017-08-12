@@ -1,0 +1,14 @@
+{
+    "name": "phpunit/phpunit",
+    "description": "PHP Unit",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Paula Muldoon",
+            "email": "pmuldoon@umich.edu"
+        }
+    ]
+}
